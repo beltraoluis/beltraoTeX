@@ -30,23 +30,23 @@ rm ${MAIN}.bbl\'s.
 cp ${MAIN}.bbl2 ${MAIN}.bbl
 rm ${MAIN}.bbl2
 # ajustes pontuais
-echo corrigindo Lockhart-Martinelli...
-cat ${MAIN}.bbl | sed 's/lockhart-martinelli correlatio/Lockhart-Martinelli correlatio/g' >> ${MAIN}.bbl2
-rm ${MAIN}.bbl
-cp ${MAIN}.bbl2 ${MAIN}.bbl
-rm ${MAIN}.bbl2
+#echo corrigindo Lockhart-Martinelli...
+#cat ${MAIN}.bbl | sed 's/lockhart-martinelli correlatio/Lockhart-Martinelli correlatio/g' >> ${MAIN}.bbl2
+#rm ${MAIN}.bbl
+#cp ${MAIN}.bbl2 ${MAIN}.bbl
+#rm ${MAIN}.bbl2
 #
-echo corrigindo LDA...
-cat ${MAIN}.bbl | sed 's/Lda measurements/LDA measurements/g' >> ${MAIN}.bbl2
-rm ${MAIN}.bbl
-cp ${MAIN}.bbl2 ${MAIN}.bbl
-rm ${MAIN}.bbl2
+#echo corrigindo LDA...
+#cat ${MAIN}.bbl | sed 's/Lda measurements/LDA measurements/g' >> ${MAIN}.bbl2
+#rm ${MAIN}.bbl
+#cp ${MAIN}.bbl2 ${MAIN}.bbl
+#rm ${MAIN}.bbl2
 #
-echo corrigindo Chisholm\'s...
-cat ${MAIN}.bbl | sed 's/modified chisholm/modified Chisholm/g' >> ${MAIN}.bbl2
-rm ${MAIN}.bbl
-cp ${MAIN}.bbl2 ${MAIN}.bbl
-rm ${MAIN}.bbl2
+#echo corrigindo Chisholm\'s...
+#cat ${MAIN}.bbl | sed 's/modified chisholm/modified Chisholm/g' >> ${MAIN}.bbl2
+#rm ${MAIN}.bbl
+#cp ${MAIN}.bbl2 ${MAIN}.bbl
+#rm ${MAIN}.bbl2
 #
 echo compilações finais ...
 pdflatex $MAIN
