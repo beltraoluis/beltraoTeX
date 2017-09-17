@@ -1,0 +1,79 @@
+MAIN=$1
+#
+#
+# cria as pastas necessarias
+echo criando pastas...
+mkdir arquivos
+mkdir capitulos
+mkdir capitulos/backup
+mkdir codigos
+mkdir imagens
+mkdir backup
+#
+# move arquivos de backup pre-existentes
+echo realizando backup...
+cp capitulos/*.tex capitulos/backup
+mv capitulos/*.backup capitulos/backup
+mv capitulos/*.bkp capitulos/backup
+#
+# executa a compilação
+echo compilando...
+pdflatex $MAIN
+echo gerando bibliografia...
+bibtex $MAIN
+echo geando indice...
+makeindex $MAIN
+echo corrigindo et al para italico...
+# coloca o et al em italico
+cat ${MAIN}.bbl | sed 's/et al/\\textit{et al}/g' >> ${MAIN}.bbl2
+rm ${MAIN}.bbl\'s.
+cp ${MAIN}.bbl2 ${MAIN}.bbl
+rm ${MAIN}.bbl2
+# ajustes pontuais
+echo corrigindo Lockhart-Martinelli...
+cat ${MAIN}.bbl | sed 's/lockhart-martinelli correlatio/Lockhart-Martinelli correlatio/g' >> ${MAIN}.bbl2
+rm ${MAIN}.bbl
+cp ${MAIN}.bbl2 ${MAIN}.bbl
+rm ${MAIN}.bbl2
+#
+echo corrigindo LDA...
+cat ${MAIN}.bbl | sed 's/Lda measurements/LDA measurements/g' >> ${MAIN}.bbl2
+rm ${MAIN}.bbl
+cp ${MAIN}.bbl2 ${MAIN}.bbl
+rm ${MAIN}.bbl2
+#
+echo corrigindo Chisholm\'s...
+cat ${MAIN}.bbl | sed 's/modified chisholm/modified Chisholm/g' >> ${MAIN}.bbl2
+rm ${MAIN}.bbl
+cp ${MAIN}.bbl2 ${MAIN}.bbl
+rm ${MAIN}.bbl2
+#
+echo compilações finais ...
+pdflatex $MAIN
+pdflatex $MAIN
+#
+# faz backup dos arquivos
+echo realizando backup dos arquivos de compilação...
+rm backup/*.bkp
+for ARQ in backup/*
+    do 
+        mv -v $ARQ $ARQ.bkp
+    done
+#
+# mover arquivos
+mv *.aux backup
+mv *.bbl backup
+mv *.log backup
+mv *.blg backup
+mv *.bak backup
+mv *.backup backup
+mv *.toc backup
+mv *.ilg backup
+mv *.ind backup
+mv *.out backup
+mv *.lof backup
+mv *.lot backup
+#
+# abrir arquivo pdf no evince
+echo abrindo pdf...
+evince ${MAIN}.pdf

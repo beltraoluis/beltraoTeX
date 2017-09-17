@@ -1,0 +1,19 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Modelo de trabalho segundo as normas da utfprtex
+% autor: Luís Henrique Beltrão Santana
+% ano: 2015
+% originalmenten testado e desenvolvido no linux com o pacote texlive usando o 
+% comando PDFLatex usando o editor kile no padrão Unicode UTF-8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\instituicao{Universidade Tecnológica Federal do Paraná}
+\departamento{Programa de Pós-Graduação em Engenharia Mecânica e de Materiais}
+\curso{Núcleo de Escoamentos Multifásicos}
+\autor{Ana Luiza Beltrão Santana }
+\titulo{xxxxxxxxxx}
+\tipotrabalho{Projeto de Dissertação}
+\data{Agosto 2017}
+\local{Curitiba}
+\orientador{Moisés Alves Marcelino Neto}
+\preambulo{\imprimirtipotrabalho \ apresentada ao  \imprimirdepartamento, como 
+requisito parcial para a obtenção do Título de Engenheiro de Computação na 
+\imprimirinstituicao}

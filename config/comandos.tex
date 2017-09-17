@@ -1,0 +1,122 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% novos comandos
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% citar figura
+\newcommand{\citaeq}[1]{
+	Equação\ ~\ref{#1}
+}
+
+% citar figura
+\newcommand{\citafig}[1]{
+	Figura\ ~\ref{#1}
+}
+
+% citar tabela
+\newcommand{\citatab}[1]{
+	Tabela\ ~\ref{#1}
+}
+
+% citar quadro
+\newcommand{\citaquad}[1]{
+	Quadro\ ~\ref{#1}
+}
+
+% citar item
+\newcommand{\citaitem}[1]{
+	item\ ~\ref{#1}
+}
+
+% Comando para inserir figuras
+\newcommand{\figura}[4]{
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=#4]{imagens/#1}
+		\caption{#2}
+		\label{#3}
+	\end{figure} 
+}
+
+% comando para inserir novo capitulo
+\newcommand{\incluirCapitulo}[1]{
+	\input{capitulos/#1}
+	\newpage
+}
+
+% comando para inserir novo capitulo para relatotorio
+\newcommand{\incluirCapituloRelatorio}[1]{
+	\input{capitulos/#1}
+}
+
+%Comando para inserir tabelas
+\newcommand{\tabela}[4]{
+	\begin{table}[H]
+		\renewcommand{\arraystretch}{1.3}
+		\centering
+		\caption{#1}
+		\label{#4} 
+		\begin{tabular}{#2}
+			#3
+		\end{tabular}
+	\end{table}
+}
+
+
+\newcommand{\seculo}[1]{
+	século~\MakeUppercase{\romannumeral #1}
+}
+
+\newcommand{\fonteautor}{
+	Fonte[do autor]
+}
+
+\newcommand{\btlnota}[1]{
+	\textcolor{red}{\textsc{#1}}
+}
+
+\newcommand{\cabecalhoPB}[3]{
+	\noindent
+	\begin{minipage}[c][2.5cm][c]{2.7cm} % a primeira minipágina tem uma altura de 1.5cm e uma largura de 3cm.
+		\includegraphics[height=2.2cm]{imagens/BrasaoDasArmasBrasil_PretoBranco.png}
+	\end{minipage}
+	\begin{minipage}[c][2.5cm][c]{9cm} % esta é a segunda minipágina que ficará no centro.
+		\small
+		Ministério da Educação \leading{8pt} \\
+		\textbf{Universidade Tecnológica Federal do Paraná}  \leading{8pt} \\
+		#1 \leading{8pt} \\
+		#2 \leading{8pt} \\
+		#3
+	\end{minipage}
+	\begin{minipage}[c][2.5cm][c]{3cm} % a primeira minipágina tem uma altura de 1.5cm e uma largura de 3cm.
+		\includegraphics[width=3cm]{imagens/UTFPR.png}
+	\end{minipage}
+	\vspace{0.5cm}
+}
+
+\newcommand{\cabecalho}[3]{
+	\noindent
+	\begin{minipage}[c][2.5cm][c]{2.7cm} % a primeira minipágina tem uma altura de 1.5cm e uma largura de 3cm.
+		\includegraphics[height=2.2cm]{imagens/BrasaoDasArmasBrasil.png}
+	\end{minipage}
+	\begin{minipage}[c][2.5cm][c]{9cm} % esta é a segunda minipágina que ficará no centro.
+		\small
+		Ministério da Educação \leading{8pt} \\
+		\textbf{Universidade Tecnológica Federal do Paraná}  \leading{8pt} \\
+		#1 \leading{8pt} \\
+		#2 \leading{8pt} \\
+		#3
+	\end{minipage}
+	\begin{minipage}[c][2.5cm][c]{3cm} % a primeira minipágina tem uma altura de 1.5cm e uma largura de 3cm.
+		\includegraphics[width=3cm]{imagens/UTFPR.png}
+	\end{minipage}
+	\vspace{0.5cm}
+}
+
+\newcommand{\micro}{\textbf{$\upmu$}}
+
+\newcommand{\ohm}{\textbf{$\Upomega$}}
+
+\newcommand{\degree}{\textbf{$^\circ$}}
+\newcommand{\citerigo}[1]{\citeauthoronline{#1} (\citeyear{#1})}
+
+

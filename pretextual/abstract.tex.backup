@@ -1,0 +1,20 @@
+The oil and gas companies uses flexible pipes, also known as corrugated pipes, in offshore production lines 
+due the structural characteristics of low bending stiffness and high axial stiffness.
+Corrugated pipes are made of several layers of materials where the inner layer has cavities that are 
+spaced apart by a constant distance. The cavities of the corrugated pipes are responsible for flexibility that is the main characteristic of 
+the corrugated pipes. The presence of cavities in the pipes can provide the dynamic changes in the flow, by example the pressure drop vary. The pressure drop is a essential project requirement for equipments design in industries and a prediction must
+be obtained quickly and reliably. Several studies evaluate the pressure drop for single-phase flow in smooth 
+pipes. However, there is a lack of studies for two-phase flow in corrugated pipes. The fluid flows in the oil and gas production lines are two-phase flow, liquid and gas flows together through the corrugated pipes, and there is a differece of diameter along the production lines.
+For this purpose this work will investigate the influence of the inner diameter in a d-type corrugated pipe
+on the pressure drop of a horizontal air-water flow.
+In this study is going to used three different inner diameters (26 mm, 36 mm and 46 mm).
+An experimental flowloop will be assemble in the NUEM/UTFPR facilities. This work also main propose a new correlation for 
+two-phase multiplier of Lockhart-Martinelli.
+
+%In spite of the fact that
+
+
+
+
+
+\keyWords{Two-phase pressure drop, corrugated pipes, inner diameter, multiplier of Lockhart-Martinelli}

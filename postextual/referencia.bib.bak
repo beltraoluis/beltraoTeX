@@ -1,0 +1,450 @@
+% This file was created with JabRef 2.10.
+% Encoding: UTF-8
+
+
+@MastersThesis{d-stel,
+  Title                    = {Simulação numérica e experimental do escoamento turbulento em tubos corrugados},
+  Author                   = {Henrique Stel Azevedo},
+  School                   = {Universidade Tecnológica Federal do Paraná - UTFPR},
+  Year                     = {2010},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.07.28}
+}
+
+@Article{Chang-2006,
+  Title                    = {Analysis of the flow and mass transfer processes for the incompressible flow past an open cavity with a laminar and fully turbulent incoming boundary layer},
+  Author                   = {K. Chang and G. Constantineuscu and S.O Park},
+  Journal                  = {Journal of Fluid Mechanics},
+  Year                     = {2006},
+  Number                   = {4},
+  Pages                    = {113-145},
+  Volume                   = {561},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.07.30}
+}
+
+@Article{Chen_2001,
+  Title                    = {Two-phase pressure drop of air-water and R-410A in small horiontal tubes},
+  Author                   = {Ing Youn Chen and Kai-Shing Yang and Yu-Juei Chang and Chi-Chung Wang},
+  Journal                  = {International Journal of Multiphase Flow},
+  Year                     = {2001},
+  Pages                    = {1293-1299},
+  Volume                   = {27},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.07.24}
+}
+
+@Article{Chen-1986,
+  Title                    = {Drag Reduction in a Longitudinally Grooved Flow Channel},
+  Author                   = {John J. J. Chen and yiu-Cheong Leung and norman W. M. Ko},
+  Journal                  = {Industrial and Engineering Chemistry Fundamentals},
+  Year                     = {1986},
+  Pages                    = {741-745},
+  Volume                   = {25},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.07.31}
+}
+
+@Article{Chisholm-1973,
+  Title                    = {Pressure gradients due to friction during the flow of evaporating two-phase mixtures in smooth tubes and channels},
+  Author                   = {D. Chisholm},
+  Journal                  = {Int. J. Heat Mass Transfer},
+  Year                     = {1973},
+  Pages                    = {347-358},
+  Volume                   = {16},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.06.22}
+}
+
+@Article{chisholm-1967,
+  Title                    = {A Theoretical Basis for the Lockhart-Martinelli Correlation for two-phase flow},
+  Author                   = {D. Chisholm},
+  Journal                  = {Int. J. Heat Mass Transf.},
+  Year                     = {1967},
+  Pages                    = {1767-1778},
+  Volume                   = {10},
+
+  Doi                      = {https://doi.org/10.1016/0017-9310(67)90047-6},
+  Owner                    = {ana},
+  Timestamp                = {2017.06.20}
+}
+
+@Article{Djenidi1994,
+  Title                    = {LDA measurements in a turbulent boundary layer over a d-type rough wall},
+  Author                   = {L. Djenidi and F. Anselmet and R. A. Antonia},
+  Journal                  = {Experiments in a Fluids},
+  Year                     = {1994},
+  Pages                    = {323 - 329},
+  Volume                   = {16},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.07.30}
+}
+
+@Book{b-fox,
+  Title                    = {Introdução a Mecânica dos Fluidos},
+  Author                   = {Robert W. Fox and Alan T. McDonald and Philip J. Pritchard},
+  Editor                   = {LTC - Livros Técnicos e Coentíficos Editora Ltda},
+  Year                     = {2010},
+
+  Address                  = {Rio de Janeiro},
+  Edition                  = {7 edição},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.08.01}
+}
+
+@Article{Friedel-1979,
+  Title                    = {Improved friction pressure drop correlation for horizontal and vertical Two-phase pipe flow},
+  Author                   = {L. Friedel},
+  Journal                  = {European Two-Phase Flow Group Meeting},
+  Year                     = {1979},
+  Pages                    = {485-492},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.06.26}
+}
+
+@Book{b_govier,
+  Title                    = {The Flow of Complex Mixtures in Pipes},
+  Author                   = {George W. Govier and Khalid Aziz},
+  Publisher                = {Robert E. Krieger Publishing Co. Inc.},
+  Year                     = {1972},
+
+  Address                  = {Malabar, Florida},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.07.06}
+}
+
+@Article{Hamad-2017,
+  Title                    = {Investigation of pressure drop in horizontal pipes with dofferent diameters},
+  Author                   = {F.A. Hamad and F. Faraji and C.G.S. Santim and N. Basha and Z. Ali},
+  Journal                  = {International Journal of Multiphase Flow},
+  Year                     = {2017},
+  Pages                    = {120-129},
+  Volume                   = {91},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.06.22}
+}
+
+@Book{bookHolman,
+  Title                    = {Experimental Method for Engineers},
+  Author                   = {J.P. Holman},
+  Publisher                = {McGraw-Hill},
+  Year                     = {2012},
+
+  Address                  = {New York},
+  Edition                  = {8},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.08.24}
+}
+
+@Article{Jimenez-2004,
+  Title                    = {Turbulent flow over rough walls},
+  Author                   = {Javier Jim\'enez},
+  Journal                  = {Annual Review of Fluid Mechanics},
+  Year                     = {2004},
+  Pages                    = {173 - 196},
+  Volume                   = {36},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.06.22}
+}
+
+@Article{kline-1953,
+  Title                    = {Describing uncertainties in single-sample experiments},
+  Author                   = {S. J. Kline and F. A. McClintock},
+  Journal                  = {Mechanical Engineering},
+  Year                     = {1953},
+  Pages                    = {3-8},
+  Volume                   = {75},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.08.02}
+}
+
+@Article{Lee-Lee-2001,
+  Title                    = {Pressure drop correlations for two-phase Flow wiwith horizontal rectangular channels with small heights},
+  Author                   = {Han Ju Lee and Sang Yong Lee},
+  Journal                  = {International Journal of Multiphase Flow},
+  Year                     = {2001},
+  Pages                    = {783-796},
+  Volume                   = {27},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.06.22}
+}
+
+@Article{Li-Hibiki-2017,
+  Title                    = {Frictional pressure drop correlation for two-phase fflow in mini and micro single-channels},
+  Author                   = {Xuejiao Li and Takashi Hibiki},
+  Journal                  = {International Journal of Multiphase Flow},
+  Year                     = {2017},
+  Pages                    = {29-45},
+  Volume                   = {90},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.06.22}
+}
+
+@Article{lockhart-martinelli-1949,
+  Title                    = {Proposed correlation of data for isothermal two-phase, two-component flow in pipes},
+  Author                   = {R. W. Lockhart and R.C. Martinelli},
+  Journal                  = {Chen. Eng. Prog.},
+  Year                     = {1949},
+  Pages                    = {39-48},
+  Volume                   = {45},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.06.20}
+}
+
+@PhdThesis{D-tubos,
+  Title                    = {Investigação do comportamento estrutural de tubos Flexíveis sob cargas compressivas},
+  Author                   = {Eduardo Ribeiro Malta},
+  School                   = {Escola Politécnica da Universidade de São Paulo},
+  Year                     = {2016},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.07.29}
+}
+
+@Article{Mishima-Hibiki_1996,
+  Title                    = {Some characteristics of air-water two-phase flow in small diameter vertical tubes},
+  Author                   = {K. Mishima and T. Hibiki},
+  Journal                  = {International Journal of Multiphase Flow},
+  Year                     = {1996},
+  Number                   = {4},
+  Pages                    = {703-712},
+  Volume                   = {22},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.07.24}
+}
+
+@Article{muller-1986,
+  Title                    = {A simple friction pressure drop correlation for two-phase flow in pipes},
+  Author                   = {H. Muller-Steinhagen and K. Heck},
+  Journal                  = {Chem. Eng. Prog.},
+  Year                     = {1986},
+  Pages                    = {297-308},
+  Volume                   = {20},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.06.26}
+}
+
+@Article{muzychka-2010,
+  Title                    = {Asymptotic Generalizations of the Lockhart-Martinelli Method for two phase flows},
+  Author                   = {Y. S. Muzychka and M. M. Awad},
+  Journal                  = {Journal of Fluids Engineering},
+  Year                     = {2010},
+  Volume                   = {132},
+
+  Editora                  = {ASME}
+}
+
+@Article{bruna-2017,
+  Title                    = {Experimental analysis of horizontal liquid-gas slug flow pressure drop in d-type corrugated pipes},
+  Author                   = {Bruna P. Naidek and Lucas Y. Kashiwakura and Rafael F. Alves and Carlos L. Bassani and Henrique Stel and Rigoberto E. M. Morales},
+  Journal                  = {Experimental Thermal and Fluid Science},
+  Year                     = {2017},
+  Pages                    = {234-243},
+  Volume                   = {81},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.06.20}
+}
+
+@Article{Perry-1969,
+  Title                    = {Rough wall turbulent boundary layers},
+  Author                   = {A. E. Perry and W. H. Schofield and P. N. Joubert},
+  Journal                  = {Journal of Fluid Mechanics},
+  Year                     = {1969},
+  Pages                    = {383-413},
+  Volume                   = {37},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.06.22}
+}
+
+@Electronic{refpetrobras,
+  Title                    = {Conheça curiosidades sobre os equipamentos de nossos sistemas submarinos},
+  Author                   = {Petrobras},
+  Month                    = {-Acesso: 13 de junho de 2017},
+  Url                      = {http://www.petrobras.com.br/fatos-e-dados/conheca-curiosidades-sobre-equipamentos-de-nossos-sistemas-submarinos.htm},
+  Year                     = {2015},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.06.22}
+}
+
+@Article{ravigururajan-1996,
+  Title                    = {Development and Verification of General Correlations for Pressure Drop and Heat Transfer in single-Phase Turbulent Flow in Enhanced Tubes},
+  Author                   = {T.S. Ravigururajan and A. E. Bergles},
+  Journal                  = {Experimental Thermal and Fluid Science},
+  Year                     = {1996},
+  Number                   = {13},
+  Pages                    = {55-70},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.07.31}
+}
+
+@MastersThesis{D-rosa,
+  Title                    = {Estudo do escoamento turbulento em dutos corrugados com cavidade helicoidal},
+  Author                   = {Phillipe Mendes Rosa},
+  School                   = {Universidade Tecnológica Federal do Paraná - UTFPR},
+  Year                     = {2014},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.07.29}
+}
+
+@Article{shannak-2008,
+  Title                    = {Frictional pressure drop of gas liquid two-phase flow in pipes},
+  Author                   = {Benbella A. Shannak},
+  Journal                  = {Nuclear Engineering and Design},
+  Year                     = {2008},
+  Pages                    = {3277-3284},
+  Volume                   = {238},
+
+  Abstract                 = {Experiments of air water two-phase flow frictional pressure drop of vertical and horizontal smooth and relatively rough pipes were conducted, respectively. The result demonstrated that the frictional pressure drop increases with increasing relative roughness of the pipe.},
+  Owner                    = {ana},
+  Timestamp                = {2017.07.03}
+}
+
+@Article{shannak-damsek-2008,
+  Title                    = {Two-phase flow resistance in flexible metal hoses},
+  Author                   = {Benbella A. Shannak and M. Q. Al-Odat and R. A. Damseh},
+  Journal                  = {Nuclear Engineering and Design},
+  Year                     = {2008},
+  Number                   = {238},
+  Pages                    = {2772-2778},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.07.31}
+}
+
+@Article{shannak-2010,
+  Title                    = {Two-phase flow through corrugated U-tube},
+  Author                   = {B. Shannak and R. Damseh and M. Al-Odat and M. Al-Shannag and A. Azzi},
+  Journal                  = {J. Mech. Eng. Sci},
+  Year                     = {2010},
+  Pages                    = {2408=2417},
+  Volume                   = {224},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.06.20}
+}
+
+@Book{Shoham-book,
+  Title                    = {Mechanistic modeling of gas-liquid two-phase flow in pipes},
+  Author                   = {Ovadia Shoham},
+  Publisher                = {Society of Petroleum Engineers},
+  Year                     = {2006},
+
+  Address                  = {Richardson, USA},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.06.22}
+}
+
+@Article{spedding-1993,
+  Title                    = {Flow regimes in two-phase gas-liquid flow},
+  Author                   = {P.L. Spedding and D. R. Spence},
+  Journal                  = {International Journal of Multiphase Flow},
+  Year                     = {1993},
+  Number                   = {2},
+  Pages                    = {245-280},
+  Volume                   = {19},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.06.22}
+}
+
+@Article{artStel2010,
+  Title                    = {Numerical and experimental analysis of turbulent boundary layers},
+  Author                   = {H. SteH. and R. E. M. Morales and A. T. Franco and S. L. M. Junqueira and R. H. Erthal and M. A. L. Gonçalves},
+  Journal                  = {journal Fluid Mech.},
+  Year                     = {2010},
+  Pages                    = {071203-071213},
+  Volume                   = {37},
+
+  Doi                      = {http://dx.doi.org/10.1115/1.4002035},
+  Owner                    = {ana},
+  Timestamp                = {2017.08.25}
+}
+
+@Article{Sun-Mishima-2009,
+  Title                    = {Evaluation analysis of prediction methods for two-phase flow pressure drop in mini-channels},
+  Author                   = {Licheng Sun and Kaichiro Mishima},
+  Journal                  = {International Journal of Multiphase Flow},
+  Year                     = {2009},
+  Pages                    = {47-54},
+  Volume                   = {35},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.06.22}
+}
+
+@Article{sutardi-2003,
+  Title                    = {The response of a turbulent boundary layer to different shaped transverse grooves},
+  Author                   = {Sutardi and C.Y. Ching},
+  Journal                  = {Experiments in Fluids},
+  Year                     = {2003},
+  Pages                    = {325-337},
+  Volume                   = {35},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.07.30}
+}
+
+@Article{Taitel-Dukler-1976,
+  Title                    = {A model for predicting flow regime transitions in horiontal and near horizontal gas-liquid flow},
+  Author                   = {Yemada Taitel and A. E. Dukler},
+  Journal                  = {AIChE Journal},
+  Year                     = {1976},
+  Number                   = {1},
+  Pages                    = {47-55},
+  Volume                   = {22},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.06.22}
+}
+
+@Article{Vaze-Banerjee-2013,
+  Title                    = {A modified Chisholm's interaction factor for air-water two-phase flow through a horizontal pipe},
+  Author                   = {Mahesh J. Vaze and Jyotirmay Banerjee},
+  Journal                  = {Multiphase science and Technology},
+  Year                     = {2013},
+  Pages                    = {57-78},
+  Volume                   = {25},
+
+  Owner                    = {ana},
+  Timestamp                = {2017.06.22}
+}
+
+@Article{xu-2012,
+  Title                    = {Evaluation of frictional pressure drop correlations for two-phase flow in pipes},
+  Author                   = {Y. Xu and X. Fang and X. Su and Z. Zhou and W. Chen},
+  Journal                  = {Nucl. Eng. Des.},
+  Year                     = {2012},
+  Pages                    = {86-97},
+  Volume                   = {253},
+
+  Doi                      = {https://doi.org/10.1016/j.nucengdes.2012.08.007},
+  Owner                    = {ana},
+  Timestamp                = {2017.06.20}
+}
+
+@comment{jabref-meta: databaseType:biblatex;}
+

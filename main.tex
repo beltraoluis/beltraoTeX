@@ -1,0 +1,32 @@
+
+%\documentclass[12pt]{abntex2} % impressão frente e verso
+\documentclass[12pt,openany,oneside]{utfpr} % distribuição digital
+
+\backgroundsetup{contents={}} % define a marca d'agua como vazia ou seja remove o texto ``draft'' padrao
+
+% edite o arquivo config/propriedades.tex
+
+\begin{document}
+	% Elementos Pre-textuais
+    \geraCapa
+    \geraFolhaDeRosto
+    \geraResumo    
+    \geraAbstract
+    \geraListaDeFiguras
+    \geraListaDeTabelas 
+    \geraListaDeSiglas
+    \geraListaDeSimbolos    
+    \geraSumario
+    % Elementos Textuais
+    \textual % exigido pelo padrão abntex, não remover ou deslocar
+    \incluirCapitulo{introducao}
+    \incluirCapitulo{revisao}
+    \incluirCapitulo{metodologia}
+    \incluirCapitulo{cronograma}
+    \incluirCapitulo{resultados}
+    \incluirCapitulo{conclusao}
+    % Elementos Pos-textuais
+    \geraReferencias{referencia}
+    %\geraAnexos
+   
+\end{document}
