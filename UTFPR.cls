@@ -8,7 +8,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{utfpr}
+\ProvidesClass{UTFPR}
 \LoadClassWithOptions{abntex2}
 \RequirePackage[a4paper,left=3cm,top=3cm,right=2.5cm, bottom=2.5cm]{geometry}
 \RequirePackage[brazil]{babel}
